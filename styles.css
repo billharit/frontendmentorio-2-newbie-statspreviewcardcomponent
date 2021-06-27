@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid black; */
+}
+body{
+    background: hsl(233, 47%, 7%);
+    font-size: 15px;
+ 
+}
+.card{
+    padding-top: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.description{
+    /* kiri 70 atas 80 kanan 120 bawah 65*/
+    width: 575px;
+    height: 450px;
+    background: hsl(244, 38%, 16%);
+    color: white;
+    padding: 80px 120px 65px 70px;
+    border-radius: 10px 0px 0px 10px;
+}
+.description h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+h1 strong{
+    color: hsl(277, 64%, 61%);
+    font-weight: 700;
+}
+.description > p{
+    font-family: 'Lexend Deca', sans-serif;
+    opacity: 50%;
+    line-height: 25px;
+    margin-top: 30px;
+}
+.imagedesc{
+    width: 545px;
+    height: 450px;
+    background: hsl(277, 64%, 61%);
+    border-radius: 0 10px 10px 0;
+    background-image: url('images/image-header-desktop.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    
+}
+    /* background-image: ; */
+img{
+    height: 100%;
+    width: auto;
+    /* object-fit: fill; */
+}
+.statistic{
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+    gap: 40px;
+}
+
+.statistic-col{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    /* justify-items: end; */
+    /* margin-top: 60px; */
+}
+.statistic-col h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    justify-items: end;
+    align-items: flex-end;
+    
+    /* color: black; */
+}
+.statistic-col p{
+    font-family: 'Lexend Deca', sans-serif;
+    opacity: 50%;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+@media (max-width:375px)
+{
+    .card{
+        flex-direction: column-reverse;
+        padding-top: 100px;
+    }
+    .description{
+        padding: 45px 0 0 0;
+        width: 310px;
+        height: 530px;
+        border-radius: 0 0 10px 10px;
+        text-align: center;
+    }
+    .description > p{
+        margin: 10px 20px 30px 20px;
+    }
+  
+    .statistic{
+        margin: 20px 0 0 0;
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagedesc{
+        width: 310px;
+        height: 240px;
+        border-radius: 10px 10px 0 0;
+    }
+}
