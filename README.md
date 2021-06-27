@@ -55,8 +55,6 @@ i will still continue newbie project everyday until im comfortable enough to get
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 - [w3school - CSS Background Image](https://www.w3schools.com/cssref/pr_background-image.asp) - This Helped me on using Backgroung Image
 - [w3school - CSS Cards](https://www.w3schools.com/howto/howto_css_cards.as) - this help me to make card (reviewing)
 - [Kevin Powell - CSS Blending Mode](https://www.youtube.com/watch?v=-c94pr41jaI) - fun stuff to do help me discover blending mode
